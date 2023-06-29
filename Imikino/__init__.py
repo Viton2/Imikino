@@ -17,4 +17,4 @@ login_manager.login_view = 'login' #quando clicar em uma página que não é per
 login_manager.login_message = 'Faça login para acessar essa página'
 login_manager.login_message_category = 'alert-primary'
 
-from imikino import routes
+from Imikino import routes

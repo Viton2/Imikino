@@ -1,8 +1,8 @@
 import requests
 from flask import render_template, flash, redirect, url_for, request, jsonify, make_response
-from imikino import app, database, bcrypt
-from imikino.forms import FormLogin, FormCriarConta, FormEditarPerfil, Avaliacoes, IdSteam
-from imikino.models import Usuario, Jogos, Avaliacao
+from Imikino import app, database, bcrypt
+from Imikino.forms import FormLogin, FormCriarConta, FormEditarPerfil, Avaliacoes, IdSteam
+from Imikino.models import Usuario, Jogos, Avaliacao
 from flask_login import login_user, logout_user, current_user, login_required
 import secrets
 import os

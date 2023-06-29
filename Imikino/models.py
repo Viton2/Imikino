@@ -1,5 +1,5 @@
 # Aqui é onde irão ficar minhas tabelas do banco de dados
-from imikino import database, login_manager
+from Imikino import database, login_manager
 from flask_login import UserMixin  # é um parametro que vai passar para a nossa classe para ele entender quem é o usuário ativo
 
 

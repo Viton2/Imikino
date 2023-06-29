@@ -1,4 +1,4 @@
-from imikino import app, database
+from Imikino import app, database
 
 if __name__ == '__main__':
     with app.app_context():
